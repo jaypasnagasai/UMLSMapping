@@ -46,6 +46,12 @@ These scripts map the unmapped diseases and drugs to UMLS Concept Unique Identif
 - The scripts use a dictionary (hash map) for fast lookups.
 - They process the entire dataset in a single iteration for efficiency.
 
+## RESULTS
+| File Name               | Total Rows | Unresolved Terms        | Resolved Terms     |
+|-------------------------|-----------|----------------------|----------------------|
+| new_mapped_diseases.tsv | 35,465    | 21,813 (61.5%)      | 13,652 (38.5%)      |
+| new_mapped_drugs.tsv    | 118,594   | 99,023 (83.5%)      | 19,571 (16.5%)      |
+
 ## NOTES
 - Click On [MRCONSO.RRF](https://drive.google.com/file/d/1Mlxzq2SFChJc3UyR7F90VBSEEdbptbl3/view?usp=sharing) for downloading the UMLS database
 - The scripts assume disease and drug names are **case-insensitive** and **stripped of whitespace**.
